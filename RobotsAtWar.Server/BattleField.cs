@@ -8,7 +8,7 @@ namespace RobotsAtWar.Server
 {
     public class BattleField
     {
-        private Dictionary<string, Warrior> _warriorByName = new Dictionary<string, Warrior>(); 
+        private var _warriorByName = new Dictionary<string, Warrior>(); 
         private DateTime _battleTime;
  
         public void RegisterWarrior(string warriorName)
