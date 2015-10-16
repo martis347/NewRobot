@@ -19,7 +19,7 @@ namespace Infrastructure.Controllers
         // GET api/<controller>/5
         public string Get(int id)
         {
-            return "value";
+            return "martis_420";
         }
 
         // POST api/<controller>
