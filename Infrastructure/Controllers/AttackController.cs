@@ -15,7 +15,7 @@ namespace Infrastructure.Controllers
         // POST api/<controller>
         public int Post([FromBody] string strength)
         {
-            return BattleField.Warrior1.GetAttacked(Int32.Parse(strength));
+            return BattleField.Warrior1.GetAttacked(Int64.Parse(strength));
         }
     }
 }
