@@ -22,8 +22,8 @@ namespace Infrastructure
                 address));
             var config = new HttpSelfHostConfiguration(address);
             config.Routes.MapHttpRoute("DefaultApi",
-                "{controller}/{war1}/{war2}",
-                new { war1 = RouteParameter.Optional, war2 = RouteParameter.Optional }
+                "{controller}/{warrior1}/{warrior2}",
+                new { warrior1 = RouteParameter.Optional, warrior2 = RouteParameter.Optional }
 
             );
             _server = new HttpSelfHostServer(config);
